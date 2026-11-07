@@ -1,0 +1,19 @@
+//switch0
+
+interface range fa0/10
+switchport mode access
+switchport access vlan 20
+
+interface range fa0/11 - 12
+switchport mode access
+switchport access vlan 10
+
+//switch1
+
+interface range fa0/10
+switchport mode access
+switchport access vlan 20
+
+interface range fa0/11 - 12
+switchport mode access
+switchport access vlan 10

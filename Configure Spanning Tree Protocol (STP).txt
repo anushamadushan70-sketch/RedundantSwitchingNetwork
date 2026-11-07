@@ -1,0 +1,9 @@
+//switch0
+
+spanning-tree vlan 10 root primary
+spanning-tree vlan 20 root primary
+
+//switch1
+
+spanning-tree vlan 10 root secondary
+spanning-tree vlan 20 root secondary

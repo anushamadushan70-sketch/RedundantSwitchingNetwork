@@ -1,0 +1,23 @@
+//switch0
+
+interface range fa0/1 - 2  
+switchport mode trunk
+exit
+
+//switch1
+
+interface range fa0/1 - 2  
+switchport mode trunk
+
+interface range fa0/5 - 6 
+switchport mode trunk
+exit
+
+//switch2
+
+interface range fa0/5 - 6 
+switchport mode trunk
+
+interface range fa0/7 - 8 
+switchport mode trunk
+exit
